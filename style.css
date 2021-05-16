@@ -1,0 +1,165 @@
+/* * {
+    outline: 1px dotted red;
+} */
+
+.container {
+    margin: 0px auto;
+    width: 900px;
+    height: 790px;
+    background-color: rgb(38,81,117);
+}
+
+    .container .header {
+        width: 860px;
+        height: 130px;
+        padding: 20px;
+    }
+
+        .container .header .lh {
+            width: auto;
+            height: 100px;
+            display: inline-block;
+        }
+
+        .container .header .rh {
+            height: 100px;
+            width: 270px;
+            display: inline-block;
+            vertical-align: top;
+            float: right;
+
+        }
+
+            .container .header .rh .topr {
+                margin-left: 99px;
+                display: inline-block;
+                color: white;
+            }
+
+                .container .header .rh .topr .link {
+                    margin-left: 3px;
+                    color: rgb(255, 222, 89)
+                }
+
+            .container .header .rh .srch {
+                box-shadow: 1px 1px;
+                height: 30px;
+                width: 240px;
+                padding-left: 30px;
+                padding-top: 10px;
+                background-color: rgb(72,72,72);
+                border-radius: 5px;
+            }
+
+        .container .header .bh {
+            padding-left: 20px;
+            padding-top: 10px;
+            border-radius: 5px; 
+            height: 30px;
+            background-color: rgb(72, 127, 171);
+            width: 800;
+            margin-left: 50px;
+            box-shadow: 1px 1px;
+        }
+
+            .container .header .bh .botones {
+                margin-right: 60px;
+                font-weight: bolder;
+                display: inline-block;
+                color: white;
+            }
+
+    .container .body .ubody {
+        width: 830px;
+        height: 300px;
+        padding-left: 70px;
+    }
+
+        .container .body .ubody .lubody{
+            text-align: center;
+            height: 240px;
+            width: 200px;
+            padding: 10px;
+            display: inline-block;
+            vertical-align: top;
+
+        }
+
+            .container .body .ubody .lubody .litem{
+                list-style: none;
+                margin-bottom: 10px;
+            }
+
+            .container .body .ubody .lubody .litem .flechas{
+                color: rgb(255, 222, 89);
+                font-size: 8px;
+            }
+
+                .container .body .ubody .lubody .litem .lilinks{
+                    color: white;
+                    content: '>>';
+                }
+
+        .container .body .ubody .rubody{
+            color: white;
+            font-size: small;
+            text-align: center;
+            height: 240px;
+            width: 546px;
+            padding: 20px;
+            display: inline-block;
+        }
+
+            .container .body .ubody .rubody .ytext{
+                color: rgb(255, 222, 89);
+                font-size: medium;
+            }
+
+    .container .body .lbody {
+        background-color: white;
+        width: 900px;
+        height: 220px;
+    }
+
+        .container .body .lbody .llbody {
+            font-size: small;
+            width: 328px;
+            height: 220px;
+            display: inline-block;
+            margin-right: 0px;
+            vertical-align: top;
+            padding-left: 60px;
+            padding-right: 60px;
+            text-align: center;
+        }
+
+            .container .body .lbody .llbody .barra {
+                margin-top: 10px;
+                width: 329px;
+                height: 3px;
+                background-color: rgb(38,81,117);
+            }
+
+            .container .body .lbody .llbody .lista {
+                color: rgb(38,81,117);
+            }
+
+.container .footer {
+    padding-top: 40px;
+    padding-left: 200px;
+    width: 700px;
+    height: 60px;
+
+}
+
+    .container .footer .botlinks {
+        text-decoration: none;
+        color: rgb(72, 127, 171);
+        margin-right: 20px;
+    }
+
+    .container .footer .copy {
+        color: rgb(72, 127, 171);
+        margin-right: 20px;
+        margin-left: 180px;
+    }
